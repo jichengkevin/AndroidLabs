@@ -7,4 +7,15 @@
     <string name="item3">Check this out!</string>
     <string name="item4">Switch on/off</string>
     <string name="item5">Type here!</string>
+    <string name="emailAddress">Enter your email address:</string>
+    <string name="userInput1">Type email here</string>
+    <string name="typePassword">Type your password:</string>
+    <string name="buttonLogin">LOGIN</string>
+    <string name="yourProfile">Your profile</string>
+    <string name="yourName">Your name:</string>
+    <string name="inputName">Enter your name</string>
+    <string name="yourEmail">Your email:</string>
+    <string name="userEmail">Enter your email</string>
+    <string name="yourPicture">Your picture:</string>
+    <string name="clickButton">Click the button above to take a picture</string>
 </resources>
