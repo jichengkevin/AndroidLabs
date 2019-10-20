@@ -18,4 +18,8 @@
     <string name="userEmail">Enter your email</string>
     <string name="yourPicture">Your picture:</string>
     <string name="clickButton">Click the button above to take a picture</string>
+    <string name="buttonsend">Send</string>
+    <string name="buttonreceive">Receive</string>
+    <string name="typehint">Type here</string>
+    <string name="chatButton">Go to chat</string>
 </resources>

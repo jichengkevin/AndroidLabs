@@ -19,4 +19,8 @@
     <string name="userEmail">输入你的电子邮箱</string>
     <string name="yourPicture">你的图片：</string>
     <string name="clickButton">点击上方的按钮拍照</string>
+    <string name="buttonsend">发送</string>
+    <string name="buttonreceive">接收</string>
+    <string name="typehint">在此输入</string>
+    <string name="chatButton">聊天</string>
 </resources>

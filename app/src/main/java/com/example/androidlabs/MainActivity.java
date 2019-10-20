@@ -13,11 +13,13 @@ import android.widget.EditText;
         EditText editText;
         SharedPreferences prefs;
         String previous = "FileName";
+        MyDatabaseOpenHelper mydb;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_first);
+            mydb = new MyDatabaseOpenHelper(this);
 
             Button firstButton = findViewById(R.id.buttonLogin);
             editText = findViewById(R.id.userInput1);

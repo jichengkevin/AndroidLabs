@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -34,6 +35,16 @@ public class ProfileActivity extends AppCompatActivity{
             if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
                 startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
             }
+        });
+
+        Button chatButton = (Button)findViewById(R.id.chatButton);
+        chatButton.setOnClickListener( c -> {
+            Intent profilePage = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+            //Give directions to go from this page, to ProfileActivity
+            //EditText et = findViewById(R.id.userInput2);
+            //profilePage.putExtra("typed", et.getText().toString());
+            //Now make the transition:
+            startActivityForResult( profilePage, 345);
         });
 
         Log.e(ACTIVITY_NAME, "In function:onCreate()");
