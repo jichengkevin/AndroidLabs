@@ -70,7 +70,7 @@ public class ChatRoomActivity extends AppCompatActivity {
             Message message = new Message(msgText.getText().toString(),true, newId);
             this.printCursor();
             objects.add(message);
-            myAdapter.notifyDataSetChanged(); //update yourself
+            myAdapter.notifyDataSetChanged();
             msgText.setText("");
         } );
 
@@ -84,7 +84,7 @@ public class ChatRoomActivity extends AppCompatActivity {
             Message message = new Message(msgText.getText().toString(),false,newId);
             this.printCursor();
             objects.add(message);
-            myAdapter.notifyDataSetChanged(); //update yourself
+            myAdapter.notifyDataSetChanged();
             msgText.setText("");
         } );
 
@@ -131,14 +131,12 @@ public class ChatRoomActivity extends AppCompatActivity {
     }
 
     public void printCursor() {
-        Log.e("MyDatabaseFile version:", db.getVersion() + "");
-        Log.e("Number of columns:", result.getColumnCount() + "");
-        Log.e("Name of the columns:", Arrays.toString(result.getColumnNames()));
-        Log.e("Number of results", result.getCount() + "");
-        Log.e("Each row of results :", "");
+        Log.e("MyDatabase version:", db.getVersion() + "");
+        Log.e("Column Number:", result.getColumnCount() + "");
+        Log.e("Column Names:", Arrays.toString(result.getColumnNames()));
+        Log.e("Result Number", result.getCount() + "");
+        Log.e("Row of results :", "");
         result.moveToFirst();
-
-        //find the column index
 
         for (int i = 0; i < result.getCount(); i++) {
             while (!result.isAfterLast()) {
