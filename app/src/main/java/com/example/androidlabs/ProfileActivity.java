@@ -47,6 +47,16 @@ public class ProfileActivity extends AppCompatActivity{
             startActivityForResult( profilePage, 345);
         });
 
+        Button weatherButton = (Button)findViewById(R.id.weatherButton);
+        weatherButton.setOnClickListener( c -> {
+            Intent profilePage = new Intent(ProfileActivity.this, WeatherForecast.class);
+            //Give directions to go from this page, to ProfileActivity
+            //EditText et = findViewById(R.id.userInput2);
+            //profilePage.putExtra("typed", et.getText().toString());
+            //Now make the transition:
+            startActivity( profilePage);
+        });
+
         Log.e(ACTIVITY_NAME, "In function:onCreate()");
     }
 

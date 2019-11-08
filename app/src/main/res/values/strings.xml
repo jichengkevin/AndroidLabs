@@ -22,4 +22,5 @@
     <string name="buttonreceive">Receive</string>
     <string name="typehint">Type here</string>
     <string name="chatButton">Go to chat</string>
+    <string name="weatherButton">Weather</string>
 </resources>
