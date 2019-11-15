@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.androidlabs.TestToolbar">
+
+    <item
+        android:id="@+id/action_Choice1"
+        android:icon="@drawable/book"
+        app:showAsAction="collapseActionView|always"
+        android:title="@string/title_choice1" />
+
+    <item
+        android:id="@+id/action_Choice2"
+        app:showAsAction="collapseActionView|always"
+        android:icon="@drawable/popular"
+        android:title="@string/title_choice2" />
+
+    <item
+        android:id="@+id/action_Choice3"
+        app:showAsAction="collapseActionView|always"
+        android:icon="@drawable/popularity"
+        android:title="@string/title_choice3" />
+
+    <item
+        android:id="@+id/action_Choice4"
+        app:showAsAction="never"
+        android:icon="@drawable/popularity"
+        android:title="@string/title_choice4" />
+
+
+</menu>

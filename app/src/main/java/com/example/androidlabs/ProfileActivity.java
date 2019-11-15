@@ -57,6 +57,16 @@ public class ProfileActivity extends AppCompatActivity{
             startActivity( profilePage);
         });
 
+        Button toolbarButton = (Button)findViewById(R.id.toolbarButton);
+        toolbarButton.setOnClickListener( c -> {
+            Intent profilePage = new Intent(ProfileActivity.this, TestToolbar.class);
+            //Give directions to go from this page, to ProfileActivity
+            //EditText et = findViewById(R.id.userInput2);
+            //profilePage.putExtra("typed", et.getText().toString());
+            //Now make the transition:
+            startActivity( profilePage);
+        });
+
         Log.e(ACTIVITY_NAME, "In function:onCreate()");
     }
 

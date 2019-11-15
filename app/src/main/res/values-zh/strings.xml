@@ -23,4 +23,12 @@
     <string name="buttonreceive">接收</string>
     <string name="typehint">在此输入</string>
     <string name="chatButton">聊天</string>
+    <string name="weatherButton">天气预报</string>
+    <string name="toolbarButton">转到工具栏页面</string>
+    <string name="title_choice1">选择1</string>
+    <string name="title_choice2">选择2</string>
+    <string name="title_choice3">选择3</string>
+    <string name="title_choice4">选择4</string>
+    <string name="undo_string">撤消</string>
+    <string name="toast_string">您单击了溢出菜单</string>
 </resources>

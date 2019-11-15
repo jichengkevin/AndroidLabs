@@ -22,5 +22,12 @@
     <string name="buttonreceive">Receive</string>
     <string name="typehint">Type here</string>
     <string name="chatButton">Go to chat</string>
-    <string name="weatherButton">Weather</string>
+    <string name="weatherButton">Weather Forecast</string>
+    <string name="toolbarButton">Go to Toolbar page</string>
+    <string name="title_choice1">Choice1</string>
+    <string name="title_choice2">Choice2</string>
+    <string name="title_choice3">Choice3</string>
+    <string name="title_choice4">Choice4</string>
+    <string name="undo_string">UNDO</string>
+    <string name="toast_string">You clicked on the overflow menu</string>
 </resources>
